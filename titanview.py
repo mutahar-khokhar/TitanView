@@ -412,7 +412,7 @@ class FindAllWorker(QThread):
 class TitanViewer(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("TitanView v4.9 | Professional Edition")
+        self.setWindowTitle("TitanView")
         self.resize(1360, 850)
         self.setAcceptDrops(True)
         
@@ -957,3 +957,4 @@ if __name__ == '__main__':
     viewer = TitanViewer()
     viewer.show()
     sys.exit(app.exec())
+
